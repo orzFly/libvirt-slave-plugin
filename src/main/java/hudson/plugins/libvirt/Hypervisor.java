@@ -503,6 +503,7 @@ public class Hypervisor extends Cloud {
             types.add("XEN");
             types.add("LXC");
             types.add("BHYVE");
+            types.add("OPENVZ");
             return types;
         }
     }
